@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>KR PROJECT</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <html>
+
+   <!------------- nav bar -->
+    <nav class="nav">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="Your Image" />
+      </div>
+      <ul class="list">
+        <li><a href="#">home</a></li>
+        <li><a href="#about-section">about me</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#divider">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        
+        
+        
+      </ul>
+    </nav>
+
+  <!------------- Hero section -->
+
+    <section class="hero">
+      
+      <div class="hero-content">
+        <div class="hero-overlay">
+          <h5><q>HELLO, WORLD</q></q>
+          <!-- <h1 class="typewriter">I'm Oussama kersit</h1> -->
+          <h1>
+            Hello <span
+              class="typer"
+              id="some-id"
+              data-words="World.,Arcadians."
+              data-delay="100"
+              data-colors="#ffcd68">
+            </span>
+            <span style="font-size:1.2em;vertical-align:middle;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
+          </h1>
+            <p class="hero-position">
+              <span>muchas gracias aficion </span>
+              <span>siuuu</span>
+            </p>
+            <button class="button">
+              <span class="button_lg">
+                  <span class="button_sl"></span>
+                  <span class="button_text" onclick="scrollToAboutSection()">More About me</span>
+              </span>
+          </button>
+      </div>
+      </div>
+      
+    </section>
+  
+  <!------------- about section -->
+
+  <section class="about" id="about-section">
+    <div class="main">
+      <img src="/assets/DSC_2261.JPG">
+      <div class="about-text">
+        <h2>About Me :</h2>
+        <h5>Future Full-stack Mern Dev <span>& Graphic Designer</span></h5>
+        <p>"Allow me to introduce myself"  <b> I'm Oussama Kersit,</b> I thrive in two dynamic realms: Full Stack MERN Development and Graphic Design. My passion lies in crafting innovative digital solutions that seamlessly blend technology and aesthetics."</p>
+        
+        <button class="about-b">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+          <div class="text">
+            Contact Me
+          </div>
+        </button>  
+      </div>  
+    </div>
+  </section>
+
+
+
+ <!------------- Portflio section -->
+
+ <!-- cards -->
+
+ <section class="portfolio" id="portfolio">
+  <div class="portfolio-title">
+    <h2>portfolio</h2>
+  </div>
+
+  <div class="gallery">
+    
+    <div class="card">
+      -Deco-in
+      <a href="https://deco-in.ma/" target="_blank"><img class="f-img" src="/assets/decoIn-1.png" alt="Image 1"></a>
+    </div>
+
+    <div class="card">
+      -Solistrap
+      <a href="https://solistarp.com/" target="_blank"><img class="f-img" src="/assets/solistrap.png" alt="Image 2"></a>
+    </div>
+
+    <div class="card">
+      -Bykersit
+      <a href="#" target="_blank"><img class="f-img" src="/assets/bykersit.png" alt="Image 2"></a>
+    </div>
+
+    <div class="card">
+      -Atlas
+      <a href="https://by-are.com/atlas/" target="_blank"><img class="f-img" src="/assets/atlas.png" alt="Image 2"></a>
+    </div>
+    
+  </div>
+  
+ </section>          
+  
+
+<!--------------------- skills  -->
+<div id="divider">
+  
+</div>
+<div class="new_skills" id="skills">
+  <div class="responsive-container-block bigContainer">
+    <div class="responsive-container-block Container">
+      <div class="responsive-container-block imgContainer">
+        <div class="pinkBG">
+        </div>
+        <img class="bigImg" src="/assets/skills-pic.png">
+      </div>
+      <div class="responsive-container-block textContainer">
+        <p class="text-blk heading">
+          Skills
+        </p>
+        <div class="textRow">
+          <div class="bullet">
+          </div>
+          <p class="text-blk bulletText">
+            Photoshop / Illustrator / Indesign / Figma - Adobe XD
+          </p>
+        </div>
+        <div class="textRow">
+          <div class="bullet">
+          </div>
+          <p class="text-blk bulletText">
+            PremierPro / After effects
+          </p>
+        </div>
+        <div class="textRow">
+          <div class="bullet">
+          </div>
+          <p class="text-blk bulletText">
+            HTML / CSS / JavaScript / Typescript
+          </p>
+        </div>
+        <div class="textRow last">
+          <div class="bullet">
+          </div>
+          <p class="text-blk bulletText">
+            MongoDB / Express.js / React / Node.js 
+          </p>
+        </div>
+        <a class="viewMore">
+          More
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+ 
+ 
+ 
+ 
+ <!------------- Contact me section -->
+
+ <section class="contact-me" id="contact">
+  <div class="contact-title">
+    <h2>Contact ME</h2>
+  </div>
+  <div class="container">
+    <div class="left">
+      <div class="header">
+        <h2 class="animation a1">Hello there</h2>
+        <h4 class="animation a2">Leave your message here</h4>
+      </div>
+      <div class="form">
+        <input type="text" class="form-field animation a3" placeholder="Full Name">
+        <input type="email" class="form-field animation a4" placeholder="E-mail">
+        <textarea class="form-field animation a5" rows="4" cols="50" placeholder="YOUR MESSAGE"></textarea>
+
+        <button class="animation a6">Send</button>
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+  
+<!------------- footer -->
+
+
+
+    <footer>
+      <div class="footer-logo">
+        <img src="/assets/logo.png" alt="Your Image" />
+      </div>
+      <div class="footer1">
+        <p>Contact me at: kersiit@gmail.com</p>
+      </div>
+      <div class="">
+        <p>&copy; 2023 KR PROJECT. All rights reserved.</p>
+      </div>
+      
+      
+    </footer>
+  
+  
+<!------------- js for button -->
+  <script>
+    function scrollToAboutSection() {
+      const aboutSection = document.getElementById("about-section");
+      if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+   </script>
+
+  <script src="https://unpkg.com/typer-dot-js@0.1.0/typer.js" ></script>
+
+  </body>
+</html>
